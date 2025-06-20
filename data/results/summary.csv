@@ -1,0 +1,5 @@
+experiment,accuracy
+1_baseline,63.7
+2_feature_optimized,62.7
+3_prompt_optimized,63.0
+4_combined_optimized,63.4

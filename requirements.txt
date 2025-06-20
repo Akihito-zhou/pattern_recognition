@@ -1,0 +1,10 @@
+pandas
+torch
+Pillow
+tqdm
+transformers
+ultralytics
+google-generativeai
+# 如果使用OpenAI API，还需添加
+# openai
+# python-dotenv
