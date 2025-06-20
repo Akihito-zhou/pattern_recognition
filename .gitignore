@@ -1,2 +1,5 @@
 # Data files - replace with your actual paths/patterns
 data/raw/
+
+# LLM API keys
+.env
