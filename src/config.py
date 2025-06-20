@@ -1,5 +1,6 @@
 # src/config.py
-
+from dotenv import load_dotenv
+import os
 from pathlib import Path
 
 # 项目根目录
@@ -23,5 +24,5 @@ RESULTS_DIR = DATA_DIR / 'results'
 FEATURES_DIR = DATA_DIR / 'features'
 
 # AI 模型配置
-LLM_API_KEY = "AIzaSyDVZhxFQr6kMyW-uBEGjIugG7Zctp969Qg"
-LLM_MODEL_NAME = "gemini-1.5-flash-latest"
+LLM_API_KEY = os.getenv('LLM_API_KEY')  # 从环境变量获取API密钥
+LLM_MODEL_NAME = os.getenv('LLM_MODEL_NAME')
